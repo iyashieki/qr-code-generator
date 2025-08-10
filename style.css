@@ -68,6 +68,37 @@ body {
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
+//fix start
+@media (max-width: 500px) {
+    body {
+    padding: 10px;
+  }
+
+    .container {
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+   input[type="text"], 
+   p { 
+    font-size: 14px;
+  }
+
+    input[type="text"] {
+    width: 90%;
+    padding: 8px;
+  }
+
+    button {
+    width: 80%;
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+}
+
+//fix end
 
 .error {
     animation: shake 0.1s linear 10;
